@@ -38,13 +38,13 @@ class Vector{
             cout<<endl;
             sort(arr1.begin(), arr1.end(),porownajRosnace);
             cout<<"sortowane rosnąco arr1"<<endl;
-            for(int i = 0;i<size;i++){
+            for(int i = 0;i<rozmiar;i++){
                 cout<<arr1[i]<<" ";
             }
             cout<<endl;
             sort(arr1.begin(), arr1.end(),porownajMalejace);
             cout<<"sortowane malejąca arr1"<<endl;
-            for(int i = 0;i<size;i++){
+            for(int i = 0;i<rozmiar;i++){
                 cout<<arr1[i]<<" ";
             }
             cout<<endl;

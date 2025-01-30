@@ -20,6 +20,5 @@ int main(int argc, const char * argv[]) {
     int liczba2 = iloczyn_4_liczb<int>(5, 3, 4, 5);
     cout << "Iloczyn 4 liczb = " << liczba2 << endl;
 
-    getchar();
     return 0;
 }
